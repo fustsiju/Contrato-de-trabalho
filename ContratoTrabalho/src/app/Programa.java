@@ -11,7 +11,7 @@ import entidades.Trabalhador;
 import entidades.enums.LevelTrabalhador;
 
 public class Programa {
-	public void main(String args[]) throws ParseException {
+	public static void main(String args[]) throws ParseException {
 		Scanner num = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
