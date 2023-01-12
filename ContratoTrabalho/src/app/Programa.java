@@ -18,7 +18,7 @@ public class Programa {
 		System.out.println("Insira o nome do departamento: ");
 		String nomeDepartamento = num.nextLine();
 
-		System.out.print("Insira os dados do trabalhador");
+		System.out.print("Insira os dados do trabalhador\n");
 		System.out.print("Insira o nome: ");
 		String nomeTrabalhador = num.nextLine();
 		System.out.print("Insira o level: ");
