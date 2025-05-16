@@ -46,8 +46,8 @@ public class Programa {
 
 		System.out.print("Informe o mes e ano para calcular o salario(MM/YYYY): ");
 		String mesAno = num.next();
-		int mes = Integer.parseInt(mesAno.substring(0, 2)); // Substring recorta a string do 0 ao 2. pegando apenas o
-															// mes no formato digitado
+		int mes = Integer.parseInt(mesAno.substring(0, 2)); 
+															
 		int ano = Integer.parseInt(mesAno.substring(3));
 		System.out.println("Nome: " + trabalhador.getNome());
 		System.out.println("Departamento: " + trabalhador.getDepartamento().getNome());
